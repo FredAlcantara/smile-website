@@ -1,0 +1,174 @@
+.header-container {
+    /*Adding design for the header container*/
+    width: 100%;
+    margin: auto;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo {
+    /*Adjusting the width of the logo as it is a bit small*/
+    width: 200px;
+
+}
+
+.navbar {
+    /*Allocating the position of the navbar*/
+    margin-right: 50px;
+    position: relative;
+
+}
+
+.navbar-toggler {
+    position: relative;
+
+}
+
+#hero-image {
+    /*Adding style for the hero image, adjusting the opcity for the text to be clearer
+    <! –– * Title: Hero Image
+          * Author: Matt Hardy
+          * Date: 22/03/2021 
+          * https://www.pexels.com/photo/woman-using-slr-camera-2179205/
+        ––>
+    */
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/hero-image.jpeg);
+    background-position: center;
+
+
+}
+
+.main-content {
+    /*Adjusting the main content so it fits right*/
+    padding: 15%;
+    text-align: center;
+}
+
+.brief {
+    /*Providing border for division, allowing, easier readability*/
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 30px 20px 30px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    /*Button design*/
+    width: 200;
+    text-align: center;
+    border-radius: 4px;
+    border: 0.5px solid white;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    /*When the cursor is over the button then change to darkgrey*/
+    color: grey;
+    background-color: darkgrey;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: #fff;
+}
+
+#about {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/about-us.jpeg);
+    background-position: left;
+}
+
+.about-content {
+    padding: 10% 0 10% 0;
+    text-align: center;
+}
+
+.mission {
+    margin: 10% 0 10% 0;
+    text-align: left;
+}
+
+.service-info {
+    margin: 35% 0 35% 0;
+}
+
+.slide {
+
+    display: flex;
+}
+h1{
+    display: 4;
+}
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+.contact {
+    padding: 10%;
+}
+
+.location {
+    padding: 20px 40px 20px 40px;
+}
+
+.register {
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.registerbtn {
+    background-color: lightskyblue;
+    color: white;
+    padding: 1%;
+    cursor: pointer;
+    width: 20%;
+    margin: 20px 0 20px 0;
+}
+
+input:focus:invalid {
+    background-color: pink;
+}
+
+small {
+    display: none;
+    color: orangered;
+}
+
+#weekdays {
+    width: 100%;
+    display: flex;
+}
+
+#weekdays div {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.booking-form {
+    margin: 5%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.bookbtn {
+    background-color: lightskyblue;
+    color: white;
+    margin-top: 30px;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    cursor: pointer;
+
+}
