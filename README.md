@@ -1,2 +1,3 @@
 # smile-website
- Photoshoot webpage - HTML,CSS, SQL, PHP, Js
+
+Photoshoot webpage deployed using HTML, CSS, SQL, PHP and JS.
